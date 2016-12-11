@@ -88,3 +88,8 @@ Replace the Post method with this one:
 ```
 
 Run from VS
+![run from VS](images/vs_run_browser.PNG)
+
+This should open a browser window with the endpoint (showing the default.htm file from project) and the port should match the port in the emulator.
+
+![run from VS](images/defaulthtm.PNG)
