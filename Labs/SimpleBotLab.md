@@ -97,3 +97,10 @@ This should open a browser window with the endpoint (showing the default.htm fil
 Open the Bot Framework Emulator application.  For local testing with the emulator make sure the Id and password fields are clear:
  
 ![bot emulator 1](images/emulator_clear_ids.PNG)
+
+Test out this echo dialog bot.
+
+## NEXT STEPS
+
+1. Integrate scores as part of sentences. For example, "the score now is 123/1 I think"
+2. Detect the score expression from the sentence
