@@ -132,3 +132,23 @@ The code receives the user message, calls the sentiment analysis endpoint and re
 ```
 
 **Run from VS**
+ 
+![run from VS](images/vs_run_browser.PNG)
+
+This should open a browser window with the endpoint (showing the default.htm file from project) and the port should match the port in the emulator.
+
+![run from VS](images/defaulthtm_senti.PNG)
+
+**Open the Bot Framework Emulator application.**  
+
+For local testing with the emulator make sure the Id and password fields are clear:
+ 
+![bot emulator 1](images/emulator_clear_ids.PNG)
+
+
+**Test out this bot in the emulator.**
+
+
+![bot emulator ](images/bot_emulator_textsenti.PNG)
+
+**Now, feel free to register and publish your bot to try out on Skype or your favorite channel.**
