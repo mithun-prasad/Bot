@@ -4,8 +4,6 @@ Training Lab resources around Microsoft Bot Framework
 
 [Feedback Survey, please fill out after class](https://www.surveymonkey.com/r/LVP8JVG)
 
-Training resources around Bot
-
 ## How to Use this Site
 
 *This site is intended to be the main resource to an instructor-led course, but anyone is welcome to learn here.  The intent is to make this site self-guided and it is getting there.*
