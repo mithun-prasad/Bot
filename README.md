@@ -1,6 +1,6 @@
 # Developing and Deploying Intelligent Chat Bots
 
-Training resources around Azure Data Lake Analytics
+Training resources around developing Bots
 
 ## How to Use this Site
 
@@ -8,19 +8,16 @@ Training resources around Azure Data Lake Analytics
 
 We recommend cloning this repository onto your local computer with a git-based program (like GitHub desktop for Windows) or you may download the site contents as a zip file by going to "Clone or Download" at the upper right of this repository.
 
-## Microsoft's Azure Data Lake Analytics Components Covered
+## Modules Covered
 
 The goal of this course is to cover the following modules, although some of the latter modules may be replaced by a hackathon.
 
-1. Introduction to Azure Data Lake
-2. Data Factory Introduction & Data Ingestion
-3. Introduction to U-SQL Programming
-4. Data Processing with U-SQL
-5. Data Movement to SQLDW & Creating Pipelines
-6. Consuming ADLS datasets in Power BI
-7. Operating Data Lake SDKs & CLIs
-8. Data Virtualization
-9. Publishing Datasets in Azure Data Catalog
+1. Bot Framework Overview
+2. Bot User Experience: Principles and Best Practices
+3. Bot Framework Developer's Toolbox
+4. Cognitive Services Overview
+5. Cognitive Services Demo
+6. Integrating Cognitive Services API with Bots
 
 **For Instructor-Led:**
 * We recommend dowloading the site contents or cloning it if you can do so to your local computer.
