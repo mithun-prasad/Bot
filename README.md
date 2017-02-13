@@ -2,6 +2,8 @@
 
 Training resources around developing Bots
 
+[Feedback Survey, please fill out after class](https://www.surveymonkey.co.uk/r/C9Z5GPP)
+
 ## How to Use this Site
 
 *This site is intended to be the main resource to an instructor-led course, but anyone is welcome to learn here.  The intent is to make this site self-guided and it is getting there.*
