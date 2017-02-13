@@ -2,7 +2,7 @@
 
 Training resources around developing Bots
 
-[Feedback Survey, please fill out after class](https://www.surveymonkey.co.uk/r/C9Z5GPP)
+[Feedback Survey, please fill out after class](https://www.surveymonkey.co.uk/r/CDLKGDC)
 
 ## How to Use this Site
 
