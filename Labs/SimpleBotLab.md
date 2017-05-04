@@ -19,7 +19,7 @@ Download Node.js Tools for Visual Studio (https://www.visualstudio.com/en-us/fea
 
 Adapted from https://docs.botframework.com/en-us/csharp/builder/sdkreference/dialogs.html
 
-### A Simple EchoBot
+### A Simple TennisBot
 
 From Bot Framework .NET template, perform the following steps to add Dialog functionality.
 Add this namespace:
@@ -42,21 +42,21 @@ Add this class:
             var activity = await result as Activity;
 
             String text = activity.Text;
-            if (text.Contains("/"))
+            if (text.Contains("-"))
             {
-                String[] stringTokens = text.Split('/');
+                String[] stringTokens = text.Split('-');
                 if(stringTokens.Length==2)
                 {
                     int intScore = 0;
                     if(int.TryParse(stringTokens[0], out intScore))
                     {
-                        if(intScore > 300)
-                            await context.PostAsync("We are definitely going to win");
-                        else if (intScore > 200)
+                        if(intScore >= 6)
+                            await context.PostAsync("Yaaay");
+                        else if (intScore > 4)
                             await context.PostAsync("We are making good progress");
-                        else if (intScore > 100)
+                        else if (intScore > 2)
                             await context.PostAsync("We are making progress");
-                        else if (intScore > 50)
+                        else if (intScore >= 0)
                             await context.PostAsync("We are playing OK");
                     }
                 }
@@ -102,5 +102,5 @@ Test out this echo dialog bot.
 
 ## NEXT STEPS
 
-1. Integrate scores as part of sentences. For example, "the score now is 123/1 I think"
-2. Detect the score expression from the sentence
+1. Notice how the code only looks at the first part of the scores (for example, 6 in 6-1). Can you change the logic to incorporate the second part of the score?
+2. Integrate scores as part of sentences. For example, "the score now is 6-3 I think"
