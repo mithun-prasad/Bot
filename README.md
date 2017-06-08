@@ -14,6 +14,7 @@ We recommend cloning this repository onto your local computer with a git-based p
 
 ## Modules Covered
 
+
 The goal of this course is to cover the following modules, although some of the latter modules may be replaced by a hackathon.
 
 1. Bot Framework Overview
