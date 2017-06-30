@@ -23,6 +23,19 @@ The goal of this course is to cover the following modules, although some of the 
 5. Cognitive Services Demo
 6. Integrating Cognitive Services API with Bots
 
+## Hands on Labs
+On satisfying the pre-reqs, begin with the Hands on Labs in the following order:
+
+1. Getting Started with a Simple Bot: BotsTennisLab
+2. Intro to Text Analytics in Cognitive Services: CognitiveServicesTextMiningLab
+3. Publishing and Registering: BotsPublishingAndRegisteringLab
+4. Integration of Cognitive Services API with Bot Framework: BotsSentimentAnalysisLab
+5. Intro to UI Controls for Bots: BotsRichUILab
+6. Track Bot Application's Health: BotsTelemetryLab
+7. Developing Unit Tests for Bots: BotsUnitTestingLab
+8. Using Ngrok for Rapid Development and Testing: BotsNgrokLab
+9. Develop a LUIS App for your bots: BotsLuisLab
+
 **For Instructor-Led:**
 * We recommend dowloading the site contents or cloning it if you can do so to your local computer.
 * Follow along with the classroom instructions and training sessions.
