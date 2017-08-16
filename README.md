@@ -23,6 +23,18 @@ The goal of this course is to cover the following modules, although some of the 
 5. Cognitive Services Demo
 6. Integrating Cognitive Services API with Bots
 
+## Slides
+
+The slides can be best followed in the following order:
+
+1. Overview - Bot Framework
+2. Overview - Cognitive Services API
+3. Testing Bots
+4. LUIS
+5. BotsLogging
+
+
+
 ## Hands on Labs
 On satisfying the pre-reqs, begin with the Hands on Labs in the following order:
 
