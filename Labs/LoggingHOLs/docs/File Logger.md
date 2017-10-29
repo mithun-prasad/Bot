@@ -97,13 +97,13 @@ namespace MiddlewareBot
 
 ## 4. Log file
 
-Investigate the log file specified in the line
+Run the bot application from the emulator and test with messages. Investigate the log file specified in the line
 
 ````C# 
 tw = new StreamWriter("C:\\Users\\username\\log.txt", true);
 ````
 
-To view the log messages from the user and the bot. The messages should appear as follows:
+To view the log messages from the user and the bot, the messages should appear as follows in the log file now:
 
 ````From:2c1c7fa3 - To:56800324 - Message:a log message````
 
