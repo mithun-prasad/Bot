@@ -68,7 +68,7 @@ Using Direct Line API, a client can send messages to your bot by issuing HTTP Po
 
 	&nbsp;
 
-	![HTTPRequest1](images/HTTPRequest1.png)
+	![HTTPRequest1](images/HTTPRequest_1.png)
 
 	* Curl:
 
