@@ -12,7 +12,7 @@ Download the sample from:
 
 https://github.com/Microsoft/BotBuilder-Samples/tree/master/CSharp/core-DirectLine and import the solution in Visual Studio.
 
-In the DirectLineBot solution, you will find two projects � DirectLineBot and DirectLineSampleClient. If you do not have a published app, you can publish DirectLineBot. The previous labs should have prepared you with the steps related to publishing bots. 
+In the DirectLineBot solution, you will find two projects: DirectLineBot and DirectLineSampleClient. If you do not have a published app, you can publish DirectLineBot.
 
 DirectLineSampleClient is the client that will send messages to the bot.
 
@@ -30,7 +30,7 @@ You can obtain a Secret Key from the Direct Line channel after adding as shown b
 
 Secret Key: Secret key is application wide and is embedded in the client application. Every conversation that is initiated by the application would use the same secret. This makes it very convenient.
 
-Tokens: A token is conversation specific. You request a token using that secret and you can initiate a conversation with that token. Its valid for 30 minutes from when it�s issued but it can be refreshed.
+Tokens: A token is conversation specific. You request a token using that secret and you can initiate a conversation with that token. Its valid for 30 minutes from when it is issued but it can be refreshed.
 
 ## App Config
 
@@ -61,7 +61,7 @@ Using Direct Line API, a client can send messages to your bot by issuing HTTP Po
 
 	* Web based Rest Clients:
 
-		You can use https://advancedrestclient.com/ with chrome for receiving messages from the bot. The below images indicate 		the conversations obtained from *Advanced Rest client*. Note the conversation "Hi there" and the corresponding bot			response that is echoed back.
+		You can use https://advancedrestclient.com/ with Chrome for receiving messages from the bot. The below images indicate the conversations obtained from *Advanced Rest Client*. Note the conversation "Hi there" and the corresponding bot response that is echoed back.
 
 	![HTTPRequest](images/HTTPRequest.png)
 
