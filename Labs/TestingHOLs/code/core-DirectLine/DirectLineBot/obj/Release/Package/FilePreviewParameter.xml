@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="directline371" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\miprasad\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\CSharp\\core-DirectLine\\DirectLineBot\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\miprasad\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\CSharp\\core-DirectLine\\DirectLineBot\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
