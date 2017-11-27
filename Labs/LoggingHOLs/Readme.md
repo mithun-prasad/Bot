@@ -2,7 +2,7 @@
 
 Unless your bot is logging the conversation data somewhere, the bot framework will not perform any logging for you automatically. This has privacy implications, and many bots simply can't allow that in their scenarios.
 
-This lab shows how you can perform logging using Microsoft Bot Framework and store chat conversations. More specifically, the aim of this lab is to:
+This workshop demonstrates how you can perform logging using Microsoft Bot Framework and store chat conversations. More specifically, the aim of this lab is to:
 
 1. Understand how to intercept and log message activities between bots and users.
 
@@ -19,17 +19,21 @@ In the advanced analytics space, there are plenty of uses for storing log conver
 
 ## Prerequisites
 
-* The latest update of Visual Studio 2015. You can download the community version [here](http://www.visualstudio.com) for free.
+* The latest update of Visual Studio 2015 or higher. You can download the community version [here](http://www.visualstudio.com) for free.
 
 * The Bot Framework Emulator. To install the Bot Framework Emulator, download it from [here](https://emulator.botframework.com/). Please refer to [this documentation article](https://github.com/microsoft/botframework-emulator/wiki/Getting-Started) to know more about the Bot Framework Emulator.
 
-* Code from [core-Middleware](https://github.com/Microsoft/BotBuilder-Samples/tree/master/CSharp/core-Middleware)
+* Access to portal and be able to create resources on Azure. We will not be providing Azure passes for this workshop.
+
+* Be familiar with C# and have some experience developing bots with Microsoft Bot Framework.
 
 ## Lab structure
 
 The folder structure is arranged as follows:
 
 __docs__: Contains all the hands-on labs
+
+__code__: Contains all the code for the hands-on labs
 
 The order of Hands-on Labs to carry out the solution is as follows:
 1. Activity Logger:
@@ -39,4 +43,8 @@ This hands-on lab is to demonstrate how you can log conversations to a file usin
 3. SQL Logger:
 This hands-on lab is an extension of the file logger. The same code from the previous task is extended to log conversations in SQL.
 
-Follow the hands-on labs in the sequential manner described above.
+Follow the hands-on labs in the sequential manner listed above.
+
+## Extra credit
+
+After finishing all the activities, can you take an existing bot and selectively log conversations from the bot to a flat file?
